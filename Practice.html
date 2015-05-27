@@ -1,0 +1,280 @@
+
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+  <div id="container">
+    <p id="target">hello i'm a p tag!</p>
+    <p> hello i'm a p tag</p>
+    <h1></h1>
+    <div class="holder">
+      <ul>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+      </ul>
+    </div>
+    <div class="holder">
+      <ul>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+      </ul>
+    </div>
+  </div>
+<script src="jquery.js"></script>
+<script type="text/javascript">
+  $('.holder').css('border', '1px solid black');
+  $('#container').css('background-color', 'red');
+  $('p').css('color', 'blue');
+  var allDivs = $('div');
+  var allULs = $('ul')
+</script>
+</body>
+</html>
+
+
+<!-- <html>
+<head>
+  <title>Pawbook</title>
+</head>
+<style type="text/css">
+  html {
+    background-color: beige;
+  }
+  #head {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: lightgreen;
+    font-size: 35px;
+  }
+  .animal {
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    line-height: 25px;
+    background-color: lightgreen;
+  }
+</style>
+<body>
+ <div id="head">
+  <h1>
+    <img src="http://www.clipartbest.com/cliparts/KTn/aMj/KTnaMjgTq.png" width="50" height="50">    
+    <b>PawBook</b>
+  </h1>
+ </div>
+ <div id="pup" class="animal">
+  <center><img src="http://www.shangralafamilyfun.com/2010/puppy0.jpg" width="200" height="170"></center>
+  <ul style="list-style-type:none" class="about">
+     <li class="species"></li>
+     <li class="tagline"></li>
+     <li class="hobbies"></li>
+  </ul>
+</div>
+ <div id="slowPoke" class="animal">
+  <center><img src="http://farm2.static.flickr.com/1409/1443750097_9c47b1bee8.jpg?v=0" width="200" height="170"></center>
+  <ul style="list-style-type:none" class="about">
+     <li class="species"></li>
+     <li class="tagline"></li>
+     <li class="hobbies"></li>
+  </ul>
+</div>
+ <div id="captainGrump" class="animal">
+  <center><img src="http://purrfectcatnames.com/wp-content/uploads/2013/11/Gray-Cat-MorgueFile-Nov16th-2013.jpg" width="200" height="170"></center>
+   <ul style="list-style-type:none" class="about">
+     <li class="species"></li>
+     <li class="tagline"></li>
+     <li class="hobbies"></li>
+   </ul>
+</div>
+ <div id="quackers" class="animal">
+  <center><img src="http://pxwallpaper.com/wp-content/uploads/2013/12/cute-duck-other.jpg" width="200" height="170"></center>
+   <ul style="list-style-type:none" class="about">
+     <li class="species"></li>
+     <li class="tagline"></li>
+     <li class="hobbies"></li>
+   </ul>
+</div>
+<script type="text/javascript">
+
+  var pup = {species: 'Dog', tagline: 'Woof', hobbies: ['running', 'swimming', 'napping']}
+  var slowPoke = {species: 'Turtle', tagline: 'Pokey', hobbies: ['eating', 'walking', 'digging']};
+  var captainGrump = {species: 'Cat', tagline: 'Im a cat', hobbies: ['sleeping', 'cuddling', 'staring']};
+  var quackers = {species: 'Duck', tagline: 'Afflack', hobbies: ['honking', 'quacking', 'swimming']};
+  var animals = [];
+  animals.push(pup);
+  animals.push(quackers);
+  animals.push(captainGrump);
+  animals.push(slowPoke);
+
+  var speciesNode = document.querySelector("#pup .species")
+  speciesNode.textContent = pup.species;
+  var taglineNode = document.querySelector("#pup .tagline")
+  taglineNode.textContent = pup.tagline;
+  var hobbiesNode = document.querySelector("#pup .hobbies")
+  hobbiesNode.textContent = pup.hobbies;
+
+  var speciesNode = document.querySelector("#slowPoke .species")
+  speciesNode.textContent = slowPoke.species;
+  var taglineNode = document.querySelector("#slowPoke .tagline")
+  taglineNode.textContent = slowPoke.tagline;
+  var hobbiesNode = document.querySelector("#slowPoke .hobbies")
+  hobbiesNode.textContent = slowPoke.hobbies;
+
+  var speciesNode = document.querySelector("#captainGrump .species")
+  speciesNode.textContent = captainGrump.species;
+  var taglineNode = document.querySelector("#captainGrump .tagline")
+  taglineNode.textContent = captainGrump.tagline;
+  var hobbiesNode = document.querySelector("#captainGrump .hobbies")
+  hobbiesNode.textContent = captainGrump.hobbies;
+
+  var speciesNode = document.querySelector("#quackers .species")
+  speciesNode.textContent = quackers.species;
+  var taglineNode = document.querySelector("#quackers .tagline")
+  taglineNode.textContent = quackers.tagline;
+  var hobbiesNode = document.querySelector("#quackers .hobbies")
+  hobbiesNode.textContent = quackers.hobbies;
+  
+  var statusUpdates = [];
+</script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>PawBook</title>
+  <style type="text/css">
+  .warning {
+    font-size: 20px;
+  }
+  .push-left {
+    float: left;
+  }
+  </style>
+</head>
+<body>
+  <div id="species" class="warning list-item push-left"></div>
+  <ul id="hobbies">
+
+  </ul>
+  <script type="text/javascript">
+    var animal = {};
+    animal["species"] = "dog";
+    var species = document.querySelector('#species')
+    species.textContent = animal.species;
+    species.setAttribute('id', 'species'); // 85% correct maybe
+    // species.addClass('special');
+
+    animal.tagline = "I'm a dog!";
+    var taglineDiv = document.createElement('div');
+    document.querySelector('body').appendChild(taglineDiv)
+    taglineDiv.textContent = animal["tagline"];
+    animal["hobbies"] = null;
+
+    var hobbyArray = [];
+    hobbyArray.push('digging garden');
+    hobbyArray.unshift('running in circles');
+    hobbyArray.splice(0,0, "chasing the mailman")
+    hobbyArray[hobbyArray.length] = "a value"
+
+    // var hobbyLIs = document.querySelectorAll('#hobbies li');
+    for (var i = 0; i < hobbyArray.length; i++) {
+      var el = document.createElement('li');
+      el.textContent = hobbyArray[i];
+      document.querySelector('#hobbies').appendChild(el);
+    };
+
+    var slowPoke = {species: 'turtle', tagline: 'Pokey', hobbies: ['eat', 'walk', 'digging']};
+    var CaptainGrump = {species: 'cat', tagline: 'Im a cat', hobbies: ['sleep', 'cuddle', 'stare']};
+    var quackers = {species: 'duck', tagline: 'Afflack', hobbies: ['quack', 'honk', 'bread', 'swim']};
+    var animals = [];
+    animals.push(animal);
+    animals.push(quackers);
+    animals.push(CaptainGrump);
+    animals.push(slowPoke);
+
+
+  </script>
+</body>
+</html> -->
+
+
+
+<!-- <html>
+<script type="text/javascript">
+  
+  var createRandomString = function(length) {
+    var myRandomString = "";
+    for( var i = 0 ; i < length ; i++ ) {
+      myRandomString = myRandomString + getRandomNumber();
+    }
+    return myRandomString;
+  }
+  var getRandomNumber = function () {
+    return alpha[Math.floor(Math.random() * 26)];
+  }
+  var alpha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+  
+  var myArr = []
+  for ( var i = 1 ; i <= 1000 ; i++ ) {
+    myArr.push(createRandomString(1))
+  }
+  
+  var animalNickname = function(name) {
+
+  }
+</script>
+</html> -->
+
+
+
+<!-- <html>
+<body>
+  <div class="moreImportant">
+    Ello' govna'
+  </div>
+  <div class="moreImportant">
+    Ello' govna'
+  </div>
+  <div class="moreImportant">
+    Ello' govna'
+  </div>
+  <div class="moreImportant">
+    Ello' govna'
+  </div>
+  <div class="moreImportant">
+    Ello' govna'
+  </div>
+
+  <ul id="myList">
+    <li>
+      things
+    </li>
+        <li>
+      things
+    </li>
+        <li>
+      things
+    </li>
+        <li>
+      things
+    </li>
+  </ul>
+<script type="text/javascript">
+  var allImportantDivs = document.querySelectorAll("div.moreImportant");
+  var divContents = []
+  for ( i = 0 ; i < allImportantDivs.length ; i++ ) {
+    divContents.push(allImportantDivs[i].textContent);
+  }
+  var myArr = ["hello","hola","bonjour","aloha","bonjourno"];
+  var myList = document.querySelectorAll("myList");
+
+</script>
+</body>
+</html>
+
+ -->
