@@ -1,0 +1,277 @@
+<html>
+	<head>
+		<title>Matilda Butner</title>
+	</head>
+
+	<style type="text/css">
+		* {
+			font-family: Georgia, serif;
+		}
+		body {
+			background: linear-gradient(0deg, #0a0a0a, #0a0a0a 10% ,lightgrey);
+		}
+		#containerAll {
+			margin-top: 50px;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1000px;
+			min-width: 700px;
+		}
+		#myImage {
+			float: left;
+			border-radius: 50%;
+			border-style: double;
+			border-color: black;
+			border-width: 10px;
+		}
+		#about {
+			padding-top: 5px;
+			margin-top: 10px;
+			background-color: 9a00da;
+			border-radius: 50px;
+			text-indent: 15px;
+		}
+		#objective {
+			margin-top: 10px;
+			background-color: 9a00da;
+			border-radius: 50px;
+			text-indent: 15px;
+		}
+		#resume {
+			margin-top: 50px;
+			padding: 20px;
+			padding-left: 50px;
+			padding-right: 50px;
+			border-radius: 50px;
+			border-width: 5px;
+			border-style: solid;
+			border-color: 9a00da;
+			background-color: white;
+		}
+		.contact {
+			padding: 10px;
+			line-height: 23px;
+		}
+		.info {
+			margin-left: 30%;
+			padding-bottom: 30px;
+		}
+		#work {
+			margin-top: 20px;
+			background-color: white;
+			border-radius: 50px;
+			border-style: solid;
+			border-width: 5px;
+			border-color: 9a00da;
+			text-align: center;
+			padding-bottom: 50px;
+		}
+		.header {
+			text-align: center;
+			font-size: 40px;
+		}
+		a {
+			color: 9a00da;
+		}
+		h3 {
+			text-align: center;
+		}
+		.volunteer {
+			font-weight: bold;
+		}
+		.sticker {
+			position: fixed;
+			bottom: 0px;
+			right: 0px;
+			width: 30%;
+		}
+		.navigationUl {
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			margin-top: 15px;
+		}
+		.navigation {
+			display: block;
+			height: 65px;
+			min-width: 629px;
+			background-color: black;
+			text-align: center;
+			position: fixed; 
+			top: 0px;
+			border-radius: 10px;
+		}
+		.navigationLi {
+			display: inline;
+			padding: 40px;
+			text-transform: bold;
+			font-size: 30px;
+			font-family: Impact, Charcoal, sans-serif;
+		}
+		.section {
+			padding: 10px;
+			padding-bottom: 20px;
+			margin-top: 20px;
+			text-align: center;
+			background-color: white;
+			border-radius: 50px;
+			border-style: solid;
+			border-width: 5px;
+			border-color: 9a00da;
+		}
+	</style>
+
+	<body>
+		<div id="containerAll">
+			<div id="about">
+				<img src="http://i1103.photobucket.com/albums/g462/MatildaLazarbeams/MESHOES.jpg" width="300" height="300" id="myImage">
+				<h1 id="name" class="contact">
+					Matilda Butner
+				</h1>
+				<ul id="contactInfo" class="contact, info" style="list-style-type:none">
+					<li id="address">
+						Austin, TX, United States
+					</li>
+					<li id="number">
+						(512) 676-0664
+					</li>
+					<li id="email">
+						matildabutner@gmail.com
+					</li>
+				</ul>
+			</div>
+			<div id="objective">
+				<h2>
+					I would like to expand my knowledge and understanding of
+					programming
+				</h2>
+			</div>
+			<div id="resume">
+				<h3>
+					Education
+				</h3>
+				<h4>
+				<a href="http://premierhighschools.com/campuses/operating-campuses/premier-high-school-of-austin/" target="newTab">Premier High School of Austin</a>, Austin, TX,
+				HS Diploma, Graduated: Spring 2015
+				</h4>
+				<ul>
+					<li>
+						Cumulative GPA: 3.78
+					</li>
+					<li>
+						Early high school graduate
+					</li>
+					<li>
+						Dual college credit program student: US Government
+					</li>
+				 </ul>
+				 <h4>
+				 	<a href="http://www.makersquare.com/" target="newTab">MakerPrep from MakerSquare</a>
+				 </h4>
+				 <ul>
+				 	<li>
+				 		Basic HTML
+				 	</li>
+				 	<li>
+				 		Basic CSS
+				 	</li>
+				 	<li>
+				 		Basic JavaScript
+				 	</li>
+				 	<li>
+				 		Basic JQuery
+				 	</li>
+				 	<li>
+				 		Basic Underscore
+				 	</li>
+				 </ul>
+				 <br><hr><br>
+				 <h3>
+				 	Work 
+				 </h3>
+				 <h4>
+				 	<a href="http://www.thehalalcorner.com/index.html" target="newTab">The Halal Corner</a>, September 21, 2015 - Current
+				 </h4>
+				 <ul>
+				 	<li>
+				 		Open resturaunt
+				 	</li>
+				 	<li>
+				 		Run cash register
+				 	</li>
+				 	<li>
+				 		Take pick-up orders
+				 	</li>
+				 	<li>
+				 		Answer Phone
+				 	</li>
+				 	<li>
+				 		Call out orders
+				 	</li>
+				 	<li>
+				 		Cleaning duties
+				 	</li>
+				 	<li>
+				 		Take out trash
+				 	</li>
+				 	<li>
+				 		Pour sauces
+				 	</li>
+				 	<li>
+				 		Stock resturaunt supplies
+				 	</li>
+				 </ul>
+				 <br><hr><br>
+				 <h3>
+				 	Volunteer Work
+				 </h3>
+				 <h4>
+					<a href="http://onioncreek.seniorcarecentersltc.com/" target="newTab">Onion Creek Senior Care</a>, Austin, Texas
+					Group Activities Volunteer, 2013 - 2014
+				</h4>
+				<ul>
+					<li>
+						Aid in gathering residents into communal areas
+					</li>
+					<li>
+						Obtain and organize supplies for games and activities
+					</li>
+					<li>
+						Positively interact with the elderly to promote their well-being
+					</li>
+				</ul>
+				 <p class="volunteer">
+				 	White Cane Day Volunteer, 2012 2012<br>
+				 	Attendee at Leo Club State Leadership Conference, Fall 2012<br>
+				 	Premier High School Focus Group Participant, Spring 2013<br>
+				 	Leo Club Annual Food Drive Assistant Coordinator, Spring 2013<br>
+				 </p>
+			</div>
+			<div id="work">
+				<h3 class="header"><br>
+					Code Work I've Done
+				</h3>
+				<p>
+					<a href="https://gist.github.com/MatildaButner/d0af418acfcdb9d41a53" target="newTab">Some Practice Work</a>
+				</p>	
+			</div>
+		</div>
+		<div class="navigation">
+			<ul class="navigationUl">
+				<li class="navigationLi">
+					<a href="https://www.facebook.com/mattie.johnston.921?ref=br_rs" target="newTab" style="text-decoration: none;">Facebook</a>
+				</li>
+				<li class="navigationLi">
+					<a href="http://matildabutner.tumblr.com" target="newTab" style="text-decoration: none;">Tumblr</a>
+				</li>
+				<li class="navigationLi">
+					<a href="https://gist.github.com/MatildaButner" target="newTab" style="text-decoration: none;">Github</a>
+				</li>
+				<li class="navigationLi">
+					<a href="www.linkedin.com/in/matildabutner" target="newTab" style="text-decoration: none;">LinkedIn</a>
+				</li>
+			</ul>
+		</div>
+		<img class="sticker" src="http://i1103.photobucket.com/albums/g462/MatildaLazarbeams/purpleEDIT.png" style='z-index: -999;'/>
+	</body>	
+</html>
